@@ -12,15 +12,15 @@ const WorkExperience = () => {
   return (
     <>
       <motion.div>
-        <p
+        {/* <p
           className={`${styles.sectionSubText} text-center top-16 uppercase tracking-[8px] text-gray-200 text-3xl md:pb-12 `}
         >
           What I have done so far
-        </p>
+        </p> */}
         <h2
           className={`uppercase tracking-[8px] top-16 text-gray-200 text-3xl pb-8 text-center md:pb-12`}
         >
-          Work Experience
+          Work Experience.
         </h2>
       </motion.div>
 

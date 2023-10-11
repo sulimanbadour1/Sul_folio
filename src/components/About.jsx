@@ -11,7 +11,7 @@ const About = () => {
   max-w-6xl  px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-12 uppercase tracking-[8px] text-gray-200 text-3xl p-8">
-        About.
+        About Me
       </h3>
 
       <motion.div

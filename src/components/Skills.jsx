@@ -17,7 +17,7 @@ const Skills = () => {
       <h3 className="absolute pt-12 top-16 uppercase tracking-[3px] text-gray-200 text-sm">
         That's what I'm good at <span className="text-[#5d509f]">.</span>
       </h3>
-      <div className="m-8 grid grid-cols-6 gap-5 ">
+      <div className="m-2 grid grid-cols-6 gap-5 ">
         {skills.map((skill, index) => (
           <SkillsCard key={`skills-${index}`} skills={skill} />
         ))}
