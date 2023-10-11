@@ -16,10 +16,7 @@ function App() {
   const [active, setActive] = useState("");
   return (
     <BrowserRouter>
-      <div
-        className="bg-[#050816] text-white h-screen snap-y snap-mandatory 
-        overflow-y-scroll "
-      >
+      <div className="bg-[#050816] text-white h-screen snap-y snap-mandatory overflow-y-scroll">
         <section id="header">
           <Header />
         </section>

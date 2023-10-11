@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "sync": "aws s3 sync ./dist s3://my-portfolio-suli/",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id EM1IILRBLTMK1 --paths /* ",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -14,6 +16,7 @@
     "@react-three/drei": "^9.88.0",
     "@react-three/fiber": "^8.14.5",
     "framer-motion": "^10.16.4",
+    "gsap": "^3.12.2",
     "math-random": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
