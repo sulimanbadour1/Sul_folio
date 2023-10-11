@@ -18,7 +18,7 @@ const WorkExperience = () => {
           What I have done so far
         </p> */}
         <h2
-          className={`uppercase tracking-[8px] top-16 text-gray-200 text-3xl pb-8 text-center md:pb-12`}
+          className={`uppercase tracking-[8px] top-16 pt-8 text-gray-200 text-3xl pb-8 text-center md:pb-12`}
         >
           Work Experience.
         </h2>

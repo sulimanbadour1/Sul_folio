@@ -1,4 +1,7 @@
 import {
+  metacredly,
+  credly,
+  metaback,
   bobcat,
   inno,
   kazanexpress,
@@ -19,6 +22,22 @@ import {
   NextJs,
   blender,
   photoshop,
+  folio,
+  betteraskpdf,
+  NorthFace,
+  mosaic,
+  shirt,
+  littlelemon,
+  saas,
+  shadcn,
+  redux,
+  tenso,
+  tripteron,
+  modeling,
+  ros,
+  xml,
+  cad,
+  f360,
 } from "../assets/index";
 
 const technologies = [
@@ -160,7 +179,12 @@ const skills = [
     date: "85%",
   },
   {
-    title: "ShadnCn UI",
+    title: "SAAS",
+    icon: saas,
+    date: "60%",
+  },
+  {
+    title: "Bootstrap UI",
     icon: BootIcon,
     date: "60%",
   },
@@ -197,13 +221,111 @@ const skills = [
   {
     title: "Blender",
     icon: blender,
-    date: "70%",
+    date: "80%",
   },
   {
     title: "Photoshop",
     icon: photoshop,
     date: "70%",
   },
+  {
+    title: "ShadnCn UI",
+    icon: shadcn,
+    date: "70%",
+  },
+  {
+    title: "AWS ",
+    icon: redux,
+    date: "50%",
+  },
 ];
 
-export { technologies, experiences, skills };
+const projects = [
+  {
+    title: "Better Ask PDF",
+    description:
+      " SAAS product designed to empower users by allowing them to upload and interactively engage with PDF files. Leveraging the power of Next.js, Tailwind CSS, NeonDB, Stripe, and OpenAI.",
+    image: betteraskpdf,
+    source_code: "https://github.com/sulimanbadour1/betteraskpdf",
+    icons: [Figma, HtmlIcon, shadcn, Ts, NextJs, saas, redux], // Replace with actual technology icons
+  },
+  {
+    title: "The North Face App",
+    description:
+      "An e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout. Also, It allow tracking the order and get notifications.",
+    image: NorthFace,
+    source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
+    icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
+  },
+  {
+    title: "Little Lemon Restaurant",
+    description:
+      "A full responsive website for a restaurant in Prague, which allows users to browse the menu, reserve a table  order and checkout. Also, it has a dashboard for the restaurant owners.",
+    image: littlelemon,
+    source_code: "https://github.com/sulimanbadour1/Meta_Capstone_Project",
+    icons: [Figma, HtmlIcon, BootIcon, Js, ReactJs], // Replace with actual technology icons
+  },
+  {
+    title: "3D portfolio",
+    description:
+      "A 3d portfolio created using vite, three js and three drei. with contact me form and resume download. Integrated with GSAP for animations, and react-three-fiber for 3d rendering.",
+    image: folio,
+    source_code: "https://github.com/sulimanbadour1/My_new_portfolio",
+    icons: [Figma, HtmlIcon, CssIcon, Js, ReactJs, ThreeJs, nodeJs, blender], // Replace with actual technology icons
+  },
+
+  {
+    title: "Shirt Store AI",
+    description:
+      "Web-based platform that allows users to create and share their own custom t-shirt designs using DALL.E, change colors to save thier own choosen design, and order them for printing and delivery.",
+    image: shirt,
+    source_code: "https://github.com/sulimanbadour1/AI_shirt_SAAS_3js",
+    icons: [saas, HtmlIcon, Tailwind, Ts, NextJs, ThreeJs, blender], // Replace with actual technology icons
+  },
+  {
+    title: "3D Mosaic",
+    description:
+      "E-Commerce Website for a Furniture Company which helps users to try, Scan its products in 3D via AR technology and take orders from clients, build products as the customer needs.",
+    image: mosaic,
+    source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
+    icons: [Figma, ThreeJs, ReactJs, Js, Tailwind, blender, saas], // Replace with actual technology icons
+  },
+];
+const projects1 = [
+  {
+    title: "TensDrone",
+    description:
+      "Tensodrone that do not break Tensodrone is a multi-rotor UAV of a new design with collision protection, made on the principle of tensegrity. This approach allows for the combination of the protective cage and the airframe in one structure, increasing impact resistance with less weight.",
+    image: tenso,
+    source_code: "https://youtu.be/4dEewzDinpA?si=7WFjcUC_CviAtYL7",
+    icons: [modeling, f360, cad, ros], // Replace with actual technology icons
+  },
+  {
+    title: "SpotRobot",
+    description:
+      "Spot Robot is a quadruped robot. It is a four-legged robot that can walk, run, and climb stairs. Spot is the first commercial robot to be able to climb stairs and traverse rough terrain. It is designed for indoor and outdoor operation and is waterproof and dustproof in all weathers.",
+    image: tripteron,
+    source_code: "https://www.youtube.com/channel/UCU2AGYmAQM4jw4wezPOFhIA",
+    icons: [modeling, blender, cad, ros], // Replace with actual technology icons
+  },
+];
+
+const badges = [
+  {
+    name: "Meta Front-End Certificate",
+    icon: metacredly,
+    link: "https://www.credly.com/org/facebook-blueprint/badge/meta-front-end-developer-certificate",
+  },
+  {
+    name: "UX Google Certificate",
+    icon: credly,
+    link: "https://www.credly.com/earner/earned/badge/c2089dc9-8c95-403b-95cd-b090c6818f61",
+  },
+  {
+    name: "Meta Back-End Certificate",
+    icon: metaback,
+    link: "https://www.credly.com/org/facebook-blueprint/badge/meta-back-end-developer-certificate",
+  },
+];
+
+export { technologies, experiences, skills, projects, projects1, badges };

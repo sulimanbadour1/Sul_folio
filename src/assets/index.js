@@ -19,6 +19,14 @@ import nodeJs from "./tech/nodejs.png";
 import NextJs from "./tech//nextjs.png";
 import blender from "./tech/blender.png";
 import photoshop from "./tech/photoshop.png";
+import saas from "../assets/tech/saas.png";
+import shadcn from "../assets/tech/shadn.png";
+import redux from "../assets/tech/redux.png";
+import f360 from "../assets/tech/fusion360.png";
+import cad from "../assets/tech/cad.png";
+import ros from "../assets/tech/ros.png";
+import xml from "../assets/tech/xml.png";
+import modeling from "../assets/tech/3dmodeling.png";
 //Folio
 import littlelemon from "./folio/lemon.png";
 import shirt from "./folio/shirt.png";
@@ -39,9 +47,18 @@ import github from "./navbarlogos/github.png";
 import linkedin from "./navbarlogos/linkedin.png";
 import behance from "./navbarlogos/behance.png";
 import dribble from "./navbarlogos//dribbble.png";
+
 //Export
 
 export {
+  modeling,
+  ros,
+  xml,
+  cad,
+  f360,
+  redux,
+  shadcn,
+  saas,
   behance,
   dribble,
   email,

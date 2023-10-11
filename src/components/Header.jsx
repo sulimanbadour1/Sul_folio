@@ -29,12 +29,12 @@ const Header = () => {
     {
       name: "Behance",
       icon: behance,
-      link: "mailto:suliman.badour1@gmail.com",
+      link: "https://www.behance.net/sulimanbadour",
     },
     {
       name: "Dribbble",
       icon: dribble,
-      link: "mailto:suliman.badour1@gmail.com",
+      link: "https://dribbble.com/SulimanBadour",
     },
     {
       name: "github",

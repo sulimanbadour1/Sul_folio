@@ -9,10 +9,10 @@
     --medium: screen and (min-width: 32em);
     --large: screen and (min-width: 40em);
     --extra-large: screen and (min-width: 50em);
-    --max: screen and (min-width: 60em);
-    --black: #bbbcbd;
+    --max: screen and (min-width: 40em);
+    --black: #8f9192;
     --white: #f8f8f8;
-    --grey-light: #e8ebf0;
+    --grey-light: #9e7cdd92;
     --grey: #bbbcbd;
     --grey-dark: #d8dbe1;
   }
@@ -23,7 +23,7 @@
   }
   
   .container {
-    margin: 1em auto;
+    margin: 0.1em auto;
   }
   
   /* Styles for .service-graphic */
@@ -167,7 +167,7 @@
   
   .screen .txt,
   .phone .txt {
-    animation: scroll 4s 1s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+    animation: scroll 5s 1s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
   }
   
   @keyframes scroll {
