@@ -1,7 +1,7 @@
 import React from "react";
 import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
-import ProfilePic from "../assets/assets/Cesky.jpg";
+import ProfilePic from "../assets/assets/Cesky.webp";
 import BackGroundCircles from "./Cards/BackGroundCircles";
 import { Link } from "react-router-dom";
 const Hero = () => {

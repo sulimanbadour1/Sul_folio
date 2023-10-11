@@ -18,7 +18,7 @@ import docker from "./tech/docker.png";
 import nodeJs from "./tech/nodejs.png";
 import NextJs from "./tech//nextjs.png";
 import blender from "./tech/blender.png";
-import photoshop from "./tech/photoshop.png";
+import photoshop from "./tech/photoshop.webp";
 import saas from "../assets/tech/saas.png";
 import shadcn from "../assets/tech/shadn.png";
 import redux from "../assets/tech/redux.png";
@@ -28,19 +28,19 @@ import ros from "../assets/tech/ros.png";
 import xml from "../assets/tech/xml.png";
 import modeling from "../assets/tech/3dmodeling.png";
 //Folio
-import littlelemon from "./folio/lemon.png";
-import shirt from "./folio/shirt.png";
-import mosaic from "./folio/mosaic.png";
-import NorthFace from "./folio/northface.png";
+import littlelemon from "./folio/lemon.webp";
+import shirt from "./folio/shirt.webp";
+import mosaic from "./folio/mosaic.webp";
+import NorthFace from "./folio/northface.webp";
 import betteraskpdf from "./folio/logo-black.png";
-import folio from "./folio/threefolio.png";
+import folio from "./folio/threefolio.webp";
 // 3d models
-import tenso from "./folio/tenso.jpg";
-import tripteron from "./folio/triptron.png";
+import tenso from "./folio/tenso.webp";
+import tripteron from "./folio/triptron.webp";
 // Badges
-import metacredly from "./badges/metacredly.png";
-import credly from "./badges/credly1.png";
-import metaback from "./badges/metacredlyback.png";
+import metacredly from "./badges/metacredly.webp";
+import credly from "./badges/credly1.webp";
+import metaback from "./badges/metacredlyback.webp";
 // Nav icons
 import email from "./navbarlogos/email.png";
 import github from "./navbarlogos/github.png";

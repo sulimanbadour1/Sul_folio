@@ -40,7 +40,7 @@ const Footer = () => {
                   target={item.link}
                   rel="noopener noreferrer"
                 >
-                  <img src={item.icon} alt={item.name} />
+                  <img src={item.icon} alt={item.name} width={12} height={12} />
                 </a>
               </li>
             ))}
