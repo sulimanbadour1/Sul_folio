@@ -105,6 +105,7 @@ const experiences = [
       "Implemented responsive design and ensuring cross-browser compatibility.",
     ],
     icons: [Figma, HtmlIcon, CssIcon, BootIcon], // Replace with actual technology icons
+    alt: ["figma", "html", "css", "bootstrap"],
   },
   {
     title: "Product Designer",
@@ -117,6 +118,7 @@ const experiences = [
       "Designed new features from scratch and revamped old ones to cope with the standards of the current market.",
     ],
     icons: [Figma, HtmlIcon, CssIcon, Js], // Replace with actual technology icons
+    alt: ["figma", "html", "css", "js"],
   },
   {
     title: "Web Developer",
@@ -130,6 +132,7 @@ const experiences = [
       " Designed and modeled 3d products, made animations to add them to company projects.",
     ],
     icons: [Figma, Js, ReactJs, Ts, Next, Tailwind], // Replace with actual technology icons
+    alt: ["figma", "js", "react", "ts", "next", "tailwind"],
   },
   {
     title: "Front-End Developer",
@@ -144,6 +147,7 @@ const experiences = [
       "Participated in user testing and research to gain insights into user behavior.",
     ],
     icons: [Figma, Js, ReactJs, Tailwind, Git], // Replace with actual technology icons
+    alt: ["figma", "js", "react", "tailwind", "git"],
   },
 ];
 
@@ -248,6 +252,7 @@ const projects = [
     image: betteraskpdf,
     source_code: "https://github.com/sulimanbadour1/betteraskpdf",
     icons: [Figma, HtmlIcon, shadcn, Ts, NextJs, saas, redux], // Replace with actual technology icons
+    alt: ["figma", "html", "shadcn", "ts", "next", "saas", "redux"],
   },
   {
     title: "The North Face App",
@@ -256,6 +261,7 @@ const projects = [
     image: NorthFace,
     source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
     icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
+    alt: ["figma", "html", "js", "react", "tailwind"],
   },
   {
     title: "Little Lemon Restaurant",
@@ -264,6 +270,7 @@ const projects = [
     image: littlelemon,
     source_code: "https://github.com/sulimanbadour1/Meta_Capstone_Project",
     icons: [Figma, HtmlIcon, BootIcon, Js, ReactJs], // Replace with actual technology icons
+    alt: ["figma", "html", "bootstrap", "js", "react"],
   },
   {
     title: "3D portfolio",
@@ -272,6 +279,7 @@ const projects = [
     image: folio,
     source_code: "https://github.com/sulimanbadour1/My_new_portfolio",
     icons: [Figma, HtmlIcon, CssIcon, Js, ReactJs, ThreeJs, nodeJs, blender], // Replace with actual technology icons
+    alt: ["figma", "html", "css", "js", "react", "three", "node", "blender"],
   },
 
   {
@@ -281,6 +289,7 @@ const projects = [
     image: shirt,
     source_code: "https://github.com/sulimanbadour1/AI_shirt_SAAS_3js",
     icons: [saas, HtmlIcon, Tailwind, Ts, NextJs, ThreeJs, blender], // Replace with actual technology icons
+    alt: ["saas", "html", "tailwind", "ts", "next", "three", "blender"],
   },
   {
     title: "3D Mosaic",
@@ -289,6 +298,7 @@ const projects = [
     image: mosaic,
     source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
     icons: [Figma, ThreeJs, ReactJs, Js, Tailwind, blender, saas], // Replace with actual technology icons
+    alt: ["figma", "three", "react", "js", "tailwind", "blender", "saas"],
   },
 ];
 const projects1 = [
@@ -299,6 +309,7 @@ const projects1 = [
     image: tenso,
     source_code: "https://youtu.be/4dEewzDinpA?si=7WFjcUC_CviAtYL7",
     icons: [modeling, f360, cad, ros], // Replace with actual technology icons
+    alt: ["modeling", "f360", "cad", "ros"],
   },
   {
     title: "SpotRobot",
@@ -307,6 +318,7 @@ const projects1 = [
     image: tripteron,
     source_code: "https://www.youtube.com/channel/UCU2AGYmAQM4jw4wezPOFhIA",
     icons: [modeling, blender, cad, ros], // Replace with actual technology icons
+    alt: ["modeling", "blender", "cad", "ros"],
   },
 ];
 

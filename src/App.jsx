@@ -10,7 +10,7 @@ import Projects1 from "./components/Projects1";
 import Contact from "./components/Contact";
 import StarsCanvas from "./components/canvas/stars";
 import Footer from "./components/Footer";
-import Logo from "./assets/logos/black.png";
+import Logo from "./assets/logos/black.webp";
 
 function App() {
   const [active, setActive] = useState("");
@@ -50,7 +50,7 @@ function App() {
             window.scrollTo(0, 0);
           }}
         >
-          <div className="sticky bottom-4 w-full cursor-pointer z-[999]">
+          <div className="sticky bottom-6 md:bottom-4 w-full cursor-pointer z-[999]">
             <div className="flex items-center justify-center">
               <div
                 className="w-12 h-12 md:h-12 md:w-12 bg-gray-200/50 rounded-full filter  grayscale-100

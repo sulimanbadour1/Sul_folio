@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import Logo from "../assets/logos/white.png";
+import Logo from "../assets/logos/white.webp";
 import menu from "../assets/assets/menu.svg";
 import close from "../assets/assets/close.svg";
 import { Link } from "react-router-dom";

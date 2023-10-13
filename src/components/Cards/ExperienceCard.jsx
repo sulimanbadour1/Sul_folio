@@ -51,7 +51,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             key={`icon-${index}`}
             src={icon}
-            alt={experience.company_name}
+            alt={experience.alt}
             className="w-6 h-6 rounded-full ml-4"
           />
         ))}

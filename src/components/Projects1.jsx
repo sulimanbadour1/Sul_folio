@@ -48,6 +48,7 @@ const ProjectsCard1 = ({ projects }) => {
             <img
               key={`icons-${index}`}
               src={icon}
+              alt={projects.alt}
               className="w-6 h-6 rounded-full mt-2 ml-2 object-contain"
             />
           ))}

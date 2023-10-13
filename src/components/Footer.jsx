@@ -4,7 +4,7 @@ import { badges } from "../constants";
 const Footer = () => {
   return (
     <div>
-      <div className=" text-white px-12 py-6">
+      <div className=" text-white px-12 py-6 ">
         <div className="container mx-auto flex justify-center">
           {/* <Link
           href="#hero"
@@ -30,7 +30,7 @@ const Footer = () => {
             {badges.map((item) => (
               <li
                 key={item.name}
-                className="h-12 w-12 cursor-pointer"
+                className="cursor-pointer"
                 onClick={() => {
                   setActive(item.link);
                 }}
@@ -40,7 +40,7 @@ const Footer = () => {
                   target={item.link}
                   rel="noopener noreferrer"
                 >
-                  <img src={item.icon} alt={item.name} width={12} height={12} />
+                  <img src={item.icon} alt={item.name} width={50} height={50} />
                 </a>
               </li>
             ))}
