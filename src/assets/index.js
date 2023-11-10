@@ -47,10 +47,15 @@ import github from "./navbarlogos/github.png";
 import linkedin from "./navbarlogos/linkedin.png";
 import behance from "./navbarlogos/behance.png";
 import dribble from "./navbarlogos//dribbble.png";
-
+import BlogLogo from "./logos/sbblog.png"; // Logo for the blog
+import bloglanding from "./folio/landingblog.webp"; // Landing for the blog
+import local from "./folio/local.webp";
 //Export
 
 export {
+  local,
+  bloglanding,
+  BlogLogo,
   modeling,
   ros,
   xml,

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { badges } from "../constants";
-
+import { BlogLogo } from "../assets";
 const Footer = () => {
   return (
     <div>
-      <div className=" text-white px-12 py-6 ">
+      <div className=" text-white px-12 py-10 ">
         <div className="container mx-auto flex justify-center">
           {/* <Link
           href="#hero"
@@ -44,6 +44,15 @@ const Footer = () => {
                 </a>
               </li>
             ))}
+            <li className="cursor-pointer">
+              <a
+                href="https://sb-blog-silk.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={BlogLogo} alt="SB Blog" width={75} height={50} />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

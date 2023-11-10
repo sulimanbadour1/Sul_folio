@@ -35,9 +35,11 @@ import {
   tripteron,
   modeling,
   ros,
-  xml,
   cad,
   f360,
+  bloglanding,
+  local,
+  BlogLogo,
 } from "../assets/index";
 
 const technologies = [
@@ -246,6 +248,24 @@ const skills = [
 
 const projects = [
   {
+    title: "Local Movie Streamer",
+    description:
+      "MERN-based application designed for streaming local movies through a sleek web interface. It enables users to search their movie collection, watch movies, add subtitles, and control streaming from any device connected to their local network.",
+    image: local,
+    source_code: "https://github.com/sulimanbadour1/local-stream-app/tree/main",
+    icons: [Figma, nodeJs, ReactJs, Tailwind], // Replace with actual technology icons
+    alt: ["figma", "Node js", "React", "Tailwind"],
+  },
+  {
+    title: "SB Blog",
+    description:
+      "Suliman Badour's Blog is an insightful and engaging online platform where Suliman shares his personal journey and experiences. This blog features a variety of content ranging from personal projeccts to shared insights.",
+    image: bloglanding,
+    source_code: "https://sb-blog-silk.vercel.app/",
+    icons: [Figma, NextJs, ReactJs, CssIcon], // Replace with actual technology icons
+    alt: ["figma", "next", "React", "Css"],
+  },
+  {
     title: "Better Ask PDF",
     description:
       " SAAS product designed to empower users by allowing them to upload and interactively engage with PDF files. Leveraging the power of Next.js, Tailwind CSS, NeonDB, Stripe, and OpenAI.",
@@ -253,15 +273,6 @@ const projects = [
     source_code: "https://github.com/sulimanbadour1/betteraskpdf",
     icons: [Figma, HtmlIcon, shadcn, Ts, NextJs, saas, redux], // Replace with actual technology icons
     alt: ["figma", "html", "shadcn", "ts", "next", "saas", "redux"],
-  },
-  {
-    title: "The North Face App",
-    description:
-      "An e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout. Also, It allow tracking the order and get notifications.",
-    image: NorthFace,
-    source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
-    icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
-    alt: ["figma", "html", "js", "react", "tailwind"],
   },
   {
     title: "Little Lemon Restaurant",
@@ -273,24 +284,33 @@ const projects = [
     alt: ["figma", "html", "bootstrap", "js", "react"],
   },
   {
-    title: "3D portfolio",
+    title: "The North Face App",
     description:
-      "A 3d portfolio created using vite, three js and three drei. with contact me form and resume download. Integrated with GSAP for animations, and react-three-fiber for 3d rendering.",
-    image: folio,
-    source_code: "https://github.com/sulimanbadour1/My_new_portfolio",
-    icons: [Figma, HtmlIcon, CssIcon, Js, ReactJs, ThreeJs, nodeJs, blender], // Replace with actual technology icons
-    alt: ["figma", "html", "css", "js", "react", "three", "node", "blender"],
+      "An e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout. Also, It allow tracking the order and get notifications.",
+    image: NorthFace,
+    source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
+    icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
+    alt: ["figma", "html", "js", "react", "tailwind"],
   },
+  // {
+  //   title: "3D portfolio",
+  //   description:
+  //     "A 3d portfolio created using vite, three js and three drei. with contact me form and resume download. Integrated with GSAP for animations, and react-three-fiber for 3d rendering.",
+  //   image: folio,
+  //   source_code: "https://github.com/sulimanbadour1/My_new_portfolio",
+  //   icons: [Figma, HtmlIcon, CssIcon, Js, ReactJs, ThreeJs, nodeJs, blender], // Replace with actual technology icons
+  //   alt: ["figma", "html", "css", "js", "react", "three", "node", "blender"],
+  // },
 
-  {
-    title: "Shirt Store AI",
-    description:
-      "Web-based platform that allows users to create and share their own custom t-shirt designs using DALL.E, change colors to save thier own choosen design, and order them for printing and delivery.",
-    image: shirt,
-    source_code: "https://github.com/sulimanbadour1/AI_shirt_SAAS_3js",
-    icons: [saas, HtmlIcon, Tailwind, Ts, NextJs, ThreeJs, blender], // Replace with actual technology icons
-    alt: ["saas", "html", "tailwind", "ts", "next", "three", "blender"],
-  },
+  // {
+  //   title: "Shirt Store AI",
+  //   description:
+  //     "Web-based platform that allows users to create and share their own custom t-shirt designs using DALL.E, change colors to save thier own choosen design, and order them for printing and delivery.",
+  //   image: shirt,
+  //   source_code: "https://github.com/sulimanbadour1/AI_shirt_SAAS_3js",
+  //   icons: [saas, HtmlIcon, Tailwind, Ts, NextJs, ThreeJs, blender], // Replace with actual technology icons
+  //   alt: ["saas", "html", "tailwind", "ts", "next", "three", "blender"],
+  // },
   {
     title: "3D Mosaic",
     description:
@@ -333,6 +353,7 @@ const badges = [
     icon: credly,
     link: "https://www.credly.com/earner/earned/badge/c2089dc9-8c95-403b-95cd-b090c6818f61",
   },
+
   {
     name: "Meta Back-End Certificate",
     icon: metaback,

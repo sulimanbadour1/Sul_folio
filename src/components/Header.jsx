@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Logo from "../assets/logos/white.webp";
 import menu from "../assets/assets/menu.svg";
@@ -121,7 +121,7 @@ const Header = () => {
           {/* Navigation */}
           <div>
             <nav className="flex flex-row items-center p-2 ">
-              <ul className="list-none hidden sm:flex sm:flex-row flex-row gap-10">
+              <ul className="list-none hidden sm:flex sm:flex-row flex-row gap-8">
                 {navLinks.map((link) => (
                   <li
                     key={link.id}
@@ -135,7 +135,17 @@ const Header = () => {
                     <a href={`#${link.id}`}>{link.title}</a>
                   </li>
                 ))}
+                <li className="text-[#aaa6c3] hover:text-white text-[14px] font-bold cursor-pointer ">
+                  <a
+                    href="https://sb-blog-silk.vercel.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Blog
+                  </a>
+                </li>
               </ul>
+
               <div className="sm:hidden flex flex-1 justify-end items-center">
                 <img
                   src={toggle ? close : menu}
@@ -168,6 +178,15 @@ const Header = () => {
                         <a href={`#${link.id}`}>{link.title}</a>
                       </li>
                     ))}
+                    <li className="text-gray-900 hover:text-gray-400 font-bold cursor-pointer text-[16px]">
+                      <a
+                        href="https://sb-blog-silk.vercel.app/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Blog
+                      </a>
+                    </li>
                   </ul>
                 </motion.div>
               </div>

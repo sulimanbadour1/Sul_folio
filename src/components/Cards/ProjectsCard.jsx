@@ -16,7 +16,7 @@ const ProjectsCard = ({ projects }) => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-[#151030] p-8 rounded-2xl sm:w-[360px] w-full border-gray-100 border-opacity-5 border-1"
+        className="bg-[#140f32] p-8 rounded-2xl sm:w-[360px] w-full border-gray-100 border-opacity-5 border-1"
       >
         <div className="relative w-full h-[230px]">
           <img
