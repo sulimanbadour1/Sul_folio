@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { projects } from "../../constants";
 import github from "../../assets/github.png";
+import { Build, Live } from "../../assets";
 const ProjectsCard = ({ projects }) => {
   return (
     <motion.div
@@ -24,7 +26,7 @@ const ProjectsCard = ({ projects }) => {
             alt={projects.title}
             className="w-full h-full object-cover rounded-xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
             <div
               className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(projects.source_code, "_blank")}
@@ -35,6 +37,29 @@ const ProjectsCard = ({ projects }) => {
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
+            {/* // Live photo UrL */}
+            {projects.live_url && (
+              <div
+                className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+                onClick={() => window.open(projects.live_url, "_blank")}
+              >
+                <img
+                  src={Live}
+                  alt="Live Logo"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
+
+            {projects.in_development && (
+              <div className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer">
+                <img
+                  src={Build}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-3 ">

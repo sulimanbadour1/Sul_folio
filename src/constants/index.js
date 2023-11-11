@@ -40,6 +40,7 @@ import {
   bloglanding,
   local,
   BlogLogo,
+  reminder,
 } from "../assets/index";
 
 const technologies = [
@@ -253,17 +254,33 @@ const projects = [
       "MERN-based application designed for streaming local movies through a sleek web interface. It enables users to search their movie collection, watch movies, add subtitles, and control streaming from any device connected to their local network.",
     image: local,
     source_code: "https://github.com/sulimanbadour1/local-stream-app/tree/main",
+    in_development: "In Development",
+    live_url: "",
     icons: [Figma, nodeJs, ReactJs, Tailwind], // Replace with actual technology icons
     alt: ["figma", "Node js", "React", "Tailwind"],
   },
+
   {
     title: "SB Blog",
     description:
       "Suliman Badour's Blog is an insightful and engaging online platform where Suliman shares his personal journey and experiences. This blog features a variety of content ranging from personal projeccts to shared insights.",
     image: bloglanding,
-    source_code: "https://sb-blog-silk.vercel.app/",
+    source_code: "https://github.com/sulimanbadour1/SB_Blog",
+    in_development: "",
+    live_url: "https://sb-blog-silk.vercel.app",
     icons: [Figma, NextJs, ReactJs, CssIcon], // Replace with actual technology icons
     alt: ["figma", "next", "React", "Css"],
+  },
+  {
+    title: "Reminder 4 u",
+    description:
+      " A full-stack reminder app leveraging modern technologies to provide an efficient and user-friendly platform for setting and managing reminders using NextJs.",
+    source_code: "https://github.com/sulimanbadour1/Reminder_NextJs",
+    image: reminder,
+    in_development: "",
+    live_url: "https://reminder4u.vercel.app/",
+    icons: [Figma, NextJs, ReactJs, CssIcon, shadcn, Tailwind], // Replace with actual technology icons
+    alt: ["figma", "next", "React", "Css", "shadcn", "Tailwind"],
   },
   {
     title: "Better Ask PDF",
@@ -271,6 +288,7 @@ const projects = [
       " SAAS product designed to empower users by allowing them to upload and interactively engage with PDF files. Leveraging the power of Next.js, Tailwind CSS, NeonDB, Stripe, and OpenAI.",
     image: betteraskpdf,
     source_code: "https://github.com/sulimanbadour1/betteraskpdf",
+    in_development: "True",
     icons: [Figma, HtmlIcon, shadcn, Ts, NextJs, saas, redux], // Replace with actual technology icons
     alt: ["figma", "html", "shadcn", "ts", "next", "saas", "redux"],
   },
@@ -280,6 +298,7 @@ const projects = [
       "A full responsive website for a restaurant in Prague, which allows users to browse the menu, reserve a table  order and checkout. Also, it has a dashboard for the restaurant owners.",
     image: littlelemon,
     source_code: "https://github.com/sulimanbadour1/Meta_Capstone_Project",
+    in_development: "true",
     icons: [Figma, HtmlIcon, BootIcon, Js, ReactJs], // Replace with actual technology icons
     alt: ["figma", "html", "bootstrap", "js", "react"],
   },
@@ -289,6 +308,7 @@ const projects = [
       "An e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout. Also, It allow tracking the order and get notifications.",
     image: NorthFace,
     source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
+    in_development: "true",
     icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
     alt: ["figma", "html", "js", "react", "tailwind"],
   },
@@ -302,24 +322,25 @@ const projects = [
   //   alt: ["figma", "html", "css", "js", "react", "three", "node", "blender"],
   // },
 
-  // {
-  //   title: "Shirt Store AI",
-  //   description:
-  //     "Web-based platform that allows users to create and share their own custom t-shirt designs using DALL.E, change colors to save thier own choosen design, and order them for printing and delivery.",
-  //   image: shirt,
-  //   source_code: "https://github.com/sulimanbadour1/AI_shirt_SAAS_3js",
-  //   icons: [saas, HtmlIcon, Tailwind, Ts, NextJs, ThreeJs, blender], // Replace with actual technology icons
-  //   alt: ["saas", "html", "tailwind", "ts", "next", "three", "blender"],
-  // },
   {
-    title: "3D Mosaic",
+    title: "Shirt Store AI",
     description:
-      "E-Commerce Website for a Furniture Company which helps users to try, Scan its products in 3D via AR technology and take orders from clients, build products as the customer needs.",
-    image: mosaic,
-    source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
-    icons: [Figma, ThreeJs, ReactJs, Js, Tailwind, blender, saas], // Replace with actual technology icons
-    alt: ["figma", "three", "react", "js", "tailwind", "blender", "saas"],
+      "Web-based platform that allows users to create and share their own custom t-shirt designs using DALL.E, change colors to save thier own choosen design, and order them for printing and delivery.",
+    image: shirt,
+    source_code: "https://github.com/sulimanbadour1/AI_shirt_SAAS_3js",
+    live_url: "https://ai-shirt-saas-3js.vercel.app/",
+    icons: [saas, HtmlIcon, Tailwind, Ts, NextJs, ThreeJs, blender], // Replace with actual technology icons
+    alt: ["saas", "html", "tailwind", "ts", "next", "three", "blender"],
   },
+  // {
+  //   title: "3D Mosaic",
+  //   description:
+  //     "E-Commerce Website for a Furniture Company which helps users to try, Scan its products in 3D via AR technology and take orders from clients, build products as the customer needs.",
+  //   image: mosaic,
+  //   source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
+  //   icons: [Figma, ThreeJs, ReactJs, Js, Tailwind, blender, saas], // Replace with actual technology icons
+  //   alt: ["figma", "three", "react", "js", "tailwind", "blender", "saas"],
+  // },
 ];
 const projects1 = [
   {

@@ -50,9 +50,15 @@ import dribble from "./navbarlogos//dribbble.png";
 import BlogLogo from "./logos/sbblog.png"; // Logo for the blog
 import bloglanding from "./folio/landingblog.webp"; // Landing for the blog
 import local from "./folio/local.webp";
+import Live from "./navbarlogos/live.svg";
+import Build from "./navbarlogos/build.svg";
+import reminder from "./folio/reminder.webp";
 //Export
 
 export {
+  reminder,
+  Build,
+  Live,
   local,
   bloglanding,
   BlogLogo,
