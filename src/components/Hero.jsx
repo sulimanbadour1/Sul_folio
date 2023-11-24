@@ -35,7 +35,7 @@ const Hero = () => {
           <span className="mr-3 text-xl mt-2 md:text-4xl">{text}</span>
           <Cursor cursorColor="#fff" />
         </h1>
-        <div className="pt-8 pb-36 ">
+        <div className="pt-12 pb-36 flex-wrap">
           <a href="#about">
             <button className="heroButton mr-2"> About</button>
           </a>
