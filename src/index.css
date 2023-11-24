@@ -7,7 +7,7 @@
 
 @layer components {
   .heroButton{
-    @apply px-5 py-2 border border-[#bda7a712] rounded-full  uppercase text-xs  tracking-widest
+    @apply px-4 py-2 border border-[#bda7a712] rounded-full  uppercase text-xs  tracking-widest
     text-gray-400   hover:border-[#efefeff5] hover:text-[#f4f4f4e4] transition-all duration-300 ease-in-out;
   }
 }
@@ -233,4 +233,6 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+
 

@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+
 import { motion } from "framer-motion";
 import Card from "./Cards/Card/Card";
 
@@ -8,7 +9,7 @@ const About = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col relative h-screen text-center md:text-left md:flex-row
+      className="flex flex-col relative h-screen text-center md:text-left md:flex-col xl:flex-row
       max-w-6xl  px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-12 uppercase tracking-[8px] text-gray-200 text-3xl p-8">
@@ -22,8 +23,8 @@ const About = () => {
         transition={{
           duration: 1.2,
         }}
-        className="md:mb-0 flex-shrink-0 w-50 h-50 rounded-full object-cover
-      shadow-2xl pt-10 -pb-12 top-50"
+        className="md:mb-0 md:flex-col flex-shrink-0 w-50 h-50 rounded-full object-cover
+      shadow-2xl pt-10 xl:pt-0 -pb-12 "
       >
         <Card />
       </motion.div>
@@ -34,11 +35,12 @@ const About = () => {
         viewport={{ once: false }}
         className="space-y-10 px-0 "
       >
-        <h4 className="text-3xl font-semibold sm:pl-0 md:pl-20">
+        <h4 className="text-3xl font-semibold sm:pl-0  mb-2 xl:pl-12">
           A <span className="underline decoration-[#6b5ec9]">Little</span> about
           me.
         </h4>
-        <p className="text-base sm:pl-0 md:pl-20">
+
+        <p className="text-base sm:pl-0 md:pl-0 xl:pl-12">
           I'm a front-end developer based in Prague, Czechia.
           <br />I have serious passion for UI effects, animations and creating
           intuitive, dynamic user experiences.
