@@ -367,12 +367,12 @@ const badges = [
   {
     name: "Meta Front-End Certificate",
     icon: metacredly,
-    link: "https://www.credly.com/earner/earned/badge/d19e7ca4-192f-46e4-9276-c309175bdccb",
+    link: "https://www.credly.com/badges/d19e7ca4-192f-46e4-9276-c309175bdccb",
   },
   {
     name: "UX Google Certificate",
     icon: credly,
-    link: "https://www.credly.com/earner/earned/badge/c2089dc9-8c95-403b-95cd-b090c6818f61",
+    link: "https://www.credly.com/badges/c2089dc9-8c95-403b-95cd-b090c6818f61",
   },
 
   {
