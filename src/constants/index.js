@@ -367,7 +367,7 @@ const badges = [
   {
     name: "Meta Front-End Certificate",
     icon: metacredly,
-    link: "https://www.credly.com/org/facebook-blueprint/badge/meta-front-end-developer-certificate",
+    link: "https://www.credly.com/earner/earned/badge/d19e7ca4-192f-46e4-9276-c309175bdccb",
   },
   {
     name: "UX Google Certificate",
