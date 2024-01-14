@@ -1,12 +1,7 @@
-import React from "react";
 import ExperienceCard from "./Cards/ExperienceCard";
 import { experiences } from "../constants";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimeline } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
 
 const WorkExperience = () => {
   return (

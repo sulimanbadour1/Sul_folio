@@ -22,10 +22,8 @@ import {
   NextJs,
   blender,
   photoshop,
-  folio,
   betteraskpdf,
   NorthFace,
-  mosaic,
   shirt,
   littlelemon,
   saas,
@@ -39,7 +37,6 @@ import {
   f360,
   bloglanding,
   local,
-  BlogLogo,
   reminder,
 } from "../assets/index";
 

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { badges } from "../constants";
 import { BlogLogo } from "../assets";
 const Footer = () => {
@@ -20,7 +19,7 @@ const Footer = () => {
         </div>
 
         <p className="flex flex-col text-white items-center justify-center dark:text-[#8954fb]">
-          All rights reserved 2023 &copy;
+          All rights reserved 2024 &copy;
         </p>
         <p className="flex flex-col text-white items-center justify-center dark:text-[#a37ff0]">
           Suliman Badour
