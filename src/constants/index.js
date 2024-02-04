@@ -38,6 +38,7 @@ import {
   bloglanding,
   local,
   reminder,
+  django,
 } from "../assets/index";
 
 const technologies = [
@@ -241,6 +242,11 @@ const skills = [
     title: "AWS ",
     icon: redux,
     date: "50%",
+  },
+  {
+    title: "Django",
+    icon: django,
+    date: "60%",
   },
 ];
 

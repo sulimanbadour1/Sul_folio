@@ -53,9 +53,11 @@ import local from "./folio/local.webp";
 import Live from "./navbarlogos/live.svg";
 import Build from "./navbarlogos/build.svg";
 import reminder from "./folio/reminder.webp";
+import django from "./tech/django.webp";
 //Export
 
 export {
+  django,
   reminder,
   Build,
   Live,
