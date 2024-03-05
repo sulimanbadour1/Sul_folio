@@ -122,11 +122,11 @@ const experiences = [
     alt: ["figma", "html", "css", "js"],
   },
   {
-    title: "Web Developer",
+    title: "Product Designer/ Front-End Developer",
     company_name: "Innopolis Design Lab",
     icon: inno,
     iconBg: "#41ba21",
-    date: "Jan 2022 - Sep 2022",
+    date: "Jan 2022 - Dec 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       " Designed UI & UX in collaboration with engineering & design teams.",
@@ -136,7 +136,7 @@ const experiences = [
     alt: ["figma", "js", "react", "ts", "next", "tailwind"],
   },
   {
-    title: "Front-End Developer",
+    title: "Design Consultant / Contractor",
     company_name: "Doosan Bobcat",
     icon: bobcat,
     iconBg: "#ea401d",
