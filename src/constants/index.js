@@ -258,6 +258,11 @@ const skills = [
     icon: django,
     date: "60%",
   },
+  {
+    title: "GSAP",
+    icon: gsap,
+    date: "50%",
+  },
 ];
 
 const projects = [
@@ -282,7 +287,7 @@ const projects = [
     live_url: "",
     designUrl:
       "https://www.figma.com/file/TFT8ZTiCEB3NegdCFBb0EV/lang_pilot?type=design&mode=design&t=n8IHqxOD0Hrw9qKJ-1",
-    icons: [Figma, NextJs, ReactJs, Tailwind, django], // Replace with actual technology icons
+    icons: [Figma, NextJs, ReactJs, Tailwind, django, gsap], // Replace with actual technology icons
   },
 
   {
