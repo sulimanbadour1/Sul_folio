@@ -3,6 +3,7 @@ import inno from "./company/innopolis.png";
 import kazanexpress from "./company/kazanexpress.png";
 import provectus from "./company/provectus.png";
 // Tech icons
+import gsap from "./tech/gsap.webp";
 import Js from "./tech/javascript.webp";
 import Ts from "./tech/typescript.webp";
 import ReactJs from "./tech/reactjs.webp";
@@ -27,6 +28,7 @@ import cad from "../assets/tech/cad.webp";
 import ros from "../assets/tech/ros.webp";
 import xml from "../assets/tech/xml.webp";
 import modeling from "../assets/tech/3dmodeling.webp";
+import adobexd from "../assets/tech/adobexd.webp";
 //Folio
 import littlelemon from "./folio/lemon.webp";
 import shirt from "./folio/shirt.webp";
@@ -34,6 +36,9 @@ import mosaic from "./folio/mosaic.webp";
 import NorthFace from "./folio/northface.webp";
 import betteraskpdf from "./folio/logo-black.png";
 import folio from "./folio/threefolio.webp";
+import langpilot from "./folio/langpilot.webp";
+import jefffolio from "./folio/jefffolio.webp";
+import luciefolio from "./folio/luciefolio.webp";
 // 3d models
 import tenso from "./folio/tenso.webp";
 import tripteron from "./folio/triptron.webp";
@@ -54,11 +59,17 @@ import Live from "./navbarlogos/live.svg";
 import Build from "./navbarlogos/build.svg";
 import reminder from "./folio/reminder.webp";
 import django from "./tech/django.webp";
+import design from "./navbarlogos/design.png";
 //Export
 
 export {
+  gsap,
+  design,
+  jefffolio,
   django,
   reminder,
+  luciefolio,
+  langpilot,
   Build,
   Live,
   local,
@@ -92,6 +103,7 @@ export {
   blender,
   NextJs,
   nodeJs,
+  adobexd,
   docker,
   ThreeJs,
   BootIcon,

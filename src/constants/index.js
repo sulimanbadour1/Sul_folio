@@ -39,6 +39,11 @@ import {
   local,
   reminder,
   django,
+  gsap,
+  adobexd,
+  langpilot,
+  jefffolio,
+  luciefolio,
 } from "../assets/index";
 
 const technologies = [
@@ -122,20 +127,6 @@ const experiences = [
     alt: ["figma", "html", "css", "js"],
   },
   {
-    title: "Product Designer/ Front-End Developer",
-    company_name: "Innopolis Design Lab",
-    icon: inno,
-    iconBg: "#41ba21",
-    date: "Jan 2022 - Dec 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      " Designed UI & UX in collaboration with engineering & design teams.",
-      " Designed and modeled 3d products, made animations to add them to company projects.",
-    ],
-    icons: [Figma, Js, ReactJs, Ts, Next, Tailwind], // Replace with actual technology icons
-    alt: ["figma", "js", "react", "ts", "next", "tailwind"],
-  },
-  {
     title: "Design Consultant / Contractor",
     company_name: "Doosan Bobcat",
     icon: bobcat,
@@ -150,6 +141,20 @@ const experiences = [
     icons: [Figma, Js, ReactJs, Tailwind, Git], // Replace with actual technology icons
     alt: ["figma", "js", "react", "tailwind", "git"],
   },
+  {
+    title: "Product Designer/ Front-End Developer",
+    company_name: "Innopolis Design Lab",
+    icon: inno,
+    iconBg: "#41ba21",
+    date: "Jan 2022 - Dec 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      " Designed UI & UX in collaboration with engineering & design teams.",
+      " Designed and modeled 3d products, made animations to add them to company projects.",
+    ],
+    icons: [Figma, Js, ReactJs, Ts, Next, Tailwind], // Replace with actual technology icons
+    alt: ["figma", "js", "react", "ts", "next", "tailwind"],
+  },
 ];
 
 const skills = [
@@ -157,6 +162,11 @@ const skills = [
     title: "HTML 5",
     icon: HtmlIcon,
     date: "70%",
+  },
+  {
+    title: "Adobe XD",
+    icon: adobexd,
+    date: "80%",
   },
   {
     title: "CSS 3",
@@ -262,6 +272,18 @@ const projects = [
     icons: [Figma, nodeJs, ReactJs, Tailwind], // Replace with actual technology icons
     alt: ["figma", "Node js", "React", "Tailwind"],
   },
+  {
+    title: "LangPilot",
+    description:
+      "LangPilot is your comprehensive language learning companion, designed to make mastering a new language both effective and enjoyable.",
+    image: langpilot,
+    source_code: "https://github.com/sulimanbadour1/langPilot",
+    in_development: "In Development",
+    live_url: "",
+    designUrl:
+      "https://www.figma.com/file/TFT8ZTiCEB3NegdCFBb0EV/lang_pilot?type=design&mode=design&t=n8IHqxOD0Hrw9qKJ-1",
+    icons: [Figma, NextJs, ReactJs, Tailwind, django], // Replace with actual technology icons
+  },
 
   {
     title: "SB Blog",
@@ -273,6 +295,15 @@ const projects = [
     live_url: "https://sb-blog-silk.vercel.app",
     icons: [Figma, NextJs, ReactJs, CssIcon], // Replace with actual technology icons
     alt: ["figma", "next", "React", "Css"],
+  },
+  {
+    title: "Jeff's Portfolio",
+    description:
+      "Jeff's Portfolio is a modern and responsive portfolio designed for Jeff. It showcases his work, skills, and experiences in a visually appealing manner.",
+    image: jefffolio,
+    source_code: "",
+    live_url: "https://jeff-folio.vercel.app/",
+    icons: [Figma, ReactJs, Tailwind, shadcn, gsap], // Replace with actual technology icons
   },
   {
     title: "Reminder 4 u",
@@ -296,6 +327,17 @@ const projects = [
     alt: ["figma", "html", "shadcn", "ts", "next", "saas", "redux"],
   },
   {
+    title: "English with Lucie",
+    description:
+      "A personal website for Lucie, a language teacher, designed to help her offer her services and connect with potential clients, in two languages, Czech and English.",
+    image: luciefolio,
+    source_code: "",
+    in_development: "",
+    live_url: "https://lucie-folio.vercel.app/cz",
+    icons: [Figma, Tailwind, NextJs, ReactJs, shadcn, gsap], // Replace with actual technology icons
+    alt: ["figma", "html", "bootstrap", "js", "react"],
+  },
+  {
     title: "Little Lemon Restaurant",
     description:
       "A full responsive website for a restaurant in Prague, which allows users to browse the menu, reserve a table  order and checkout. Also, it has a dashboard for the restaurant owners.",
@@ -310,8 +352,9 @@ const projects = [
     description:
       "An e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout. Also, It allow tracking the order and get notifications.",
     image: NorthFace,
-    source_code: "https://www.behance.net/gallery/141974421/3D-Mosaic",
-    in_development: "true",
+    source_code: "",
+    in_development: "",
+    designUrl: "https://www.behance.net/gallery/141974421/3D-Mosaic",
     icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
     alt: ["figma", "html", "js", "react", "tailwind"],
   },

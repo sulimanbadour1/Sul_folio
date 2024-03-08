@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <p className="flex flex-col text-white items-center justify-center dark:text-[#8954fb]">
-          All rights reserved 2024 &copy;
+          All rights reserved {new Date().getFullYear()} &copy;
         </p>
         <p className="flex flex-col text-white items-center justify-center dark:text-[#a37ff0]">
           Suliman Badour
