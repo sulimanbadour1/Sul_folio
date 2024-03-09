@@ -359,7 +359,8 @@ const projects = [
     image: NorthFace,
     source_code: "",
     in_development: "",
-    designUrl: "https://www.behance.net/gallery/141974421/3D-Mosaic",
+    designUrl:
+      "https://www.behance.net/gallery/138474501/The-North-Face-Mobile-Application",
     icons: [Figma, HtmlIcon, Js, ReactJs, Tailwind], // Replace with actual technology icons
     alt: ["figma", "html", "js", "react", "tailwind"],
   },

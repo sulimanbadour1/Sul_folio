@@ -65,7 +65,10 @@ const ProjectsCard = ({ projects }) => {
               </div>
             )}
             {projects.designUrl && (
-              <div className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer">
+              <div
+                className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+                onClick={() => window.open(projects.designUrl, "_blank")}
+              >
                 <img
                   src={design}
                   alt="github"
