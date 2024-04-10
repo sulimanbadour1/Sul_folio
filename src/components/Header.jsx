@@ -41,11 +41,11 @@ const Header = () => {
       icon: github,
       link: "https://github.com/sulimanbadour1",
     },
-    {
-      name: "linkedin",
-      icon: linkedin,
-      link: "https://www.linkedin.com/in/sulimanbadour/",
-    },
+    // {
+    //   name: "linkedin",
+    //   icon: linkedin,
+    //   link: "https://www.linkedin.com/in/sulimanbadour/",
+    // },
   ];
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
