@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "sync": "aws s3 sync ./dist s3://my-portfolio-suli/",
+    "sync": "aws s3 sync ./dist s3://suli-folio/",
     "invalidate": "aws cloudfront create-invalidation --distribution-id EM1IILRBLTMK1 --paths /* ",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 Contact.jsx*
-
+deploy.bat*
 
 # Editor directories and files
 .vscode/*
