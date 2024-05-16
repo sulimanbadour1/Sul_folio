@@ -104,7 +104,7 @@ const experiences = [
     company_name: "Kazan Express",
     icon: kazanexpress, // Replace with the actual image path
     iconBg: "#ff1919",
-    date: "Mar 2020 - Dec 2020",
+    date: "Feb 2020 - Dec 2020",
     points: [
       "Executed Visual redesign of web applications and marketing for +20 new product categories (Shoes, plus-size).",
       "Designed posters and various social media content for multiple clients.",
@@ -118,7 +118,7 @@ const experiences = [
     company_name: "Provectus",
     icon: provectus, // Replace with the actual image path
     iconBg: "#ffffff",
-    date: "Apr 2021 - Dec 2021",
+    date: "Jan 2021 - Jan 2022",
     points: [
       "Worked as a UI/UX designer on one of Provectus internal projects, Communicated with the product managers and the stakeholders weekly.",
       "Designed new features from scratch and revamped old ones to cope with the standards of the current market.",
@@ -143,10 +143,10 @@ const experiences = [
   },
   {
     title: "Product Designer/ Front-End Developer",
-    company_name: "Innopolis Design Lab",
+    company_name: "Innopolis Design Lab ",
     icon: inno,
     iconBg: "#41ba21",
-    date: "Jan 2022 - Dec 2023",
+    date: "Jan 2022 - Jan 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       " Designed UI & UX in collaboration with engineering & design teams.",
